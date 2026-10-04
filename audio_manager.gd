@@ -5,8 +5,8 @@ const MAIN_AUDIO_CHANNEL: String = "Master"
 var channels: Array[String] = [] # Useless so far
 var audio_instances: Dictionary[String, Array] = {} #Dictionary[String, Array[AudioInstance]]
 
-@onready var audio_instance_scene: PackedScene = load("res://addons/foxyg3n-audio/AudioInstance.tscn")
-@onready var audio_bus_layout: AudioBusLayout = load("res://addons/foxyg3n-audio/audio_bus_layout.tres")
+@onready var audio_instance_scene: PackedScene = load("uid://b76hstq1mq4ut")
+@onready var audio_bus_layout: AudioBusLayout = load("uid://dotnyhmd04pnx")
 
 func _ready() -> void:
 	initialize()

@@ -1,7 +1,7 @@
 @tool
 extends EditorPlugin
 
-const PLUGIN_NAME: String = "foxyg3n-audio"
+const PLUGIN_NAME: String = "brosnpros-audio"
 const PLUGIN_PATH: String = "res://addons/%s/" % PLUGIN_NAME
 const AUTOLOAD_AUDIO_MANAGER: String = "AudioManager"
 
